@@ -1,12 +1,12 @@
 /*Grading Systeme */
 let score = 80;
-if (score>=90 && score<100){
+if (score <= 100 && score >= 90){
      console.log("A");
-} else if (score>=80 && score<89){
+} else if (score >= 80) {
      console.log("B");
-} else if (score>=70 && score<79){
+} else if (score >= 70) {
     console.log("C");
-} else (score<70)
+} else {
     console.log("F");
-    
+} 
 
